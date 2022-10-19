@@ -1,0 +1,82 @@
+body {
+
+    background-color: #1a1a1a;
+    animation-name: sky;
+    animation-duration: 25s;
+
+}
+
+@keyframes sky {
+    0%   {background-color: #3b73ad;}
+    30%   {background-color: #c48d74;}
+    35%  {background-color: #cb7749;}
+    60% {background-color: #362321;}
+    80%  {background-color: #292734;}
+    100%  {background-color: #1a1a1a;}
+}
+
+.container {
+    position: relative;
+    height: 700px;
+}
+
+
+#house_body {
+    height: 120px;
+    width: 210px;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    top: 60%;
+    background-color: white;
+}
+
+#triangle {
+    width: 0;
+    height: 0;
+    top: 38%;
+    left: 50%;
+    border: 150px solid transparent;
+    border-bottom: 80px solid white;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  .window {
+    position: absolute;
+    transform: translate(-50%, -50%);
+    height: 20px;
+    width: 40px;
+    background-color: #fae588;
+    animation-name: window_color;
+    animation-duration: 28s;
+    
+  }
+
+  @keyframes window_color {
+    0%   {background-color: #8ecae6;}
+    94%  {background-color: rgb(34, 34, 51);}
+    97% {background-color: #fae588;}
+}
+
+  #window1 {
+    left: 48.5%;
+    top: 58%;
+
+  }
+
+  #window2 {
+    left: 51.5%;
+    top: 58%;
+  }
+
+  #window3 {
+    left: 48.5%;
+    top: 61.3%;
+  }
+
+  #window4 {
+    left: 51.5%;
+    top: 61.3%;
+  }
