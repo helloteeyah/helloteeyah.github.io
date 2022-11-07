@@ -1,0 +1,23 @@
+body {
+    background-color: #1a1a1a;
+}
+.text {
+    text-align: center;
+    color: aliceblue;
+}
+
+h5 {
+    font-size: 60px;
+    margin: 20px;
+    padding: 10px;
+}
+
+p {
+    margin: 20px;
+    padding: 30px;
+    font-size: 23px;
+    line-height: 1.5;
+}
+#canvas {
+    text-align: center;
+}
