@@ -17,7 +17,7 @@
     color: rgba(0, 0, 0, 0.3);
     font-size: 85px;
     font-style: italic;
-    width: 600px;
+    width: 1000px;
     position: absolute;
     top: 70px;
     left: 390px;
@@ -65,7 +65,7 @@ button {
   line-height: 20px;
   list-style: none;
   margin: 0;
-  padding: 10px 12px;
+  padding: 8px 10px;
   text-align: center;
   transition: all 200ms;
   vertical-align: baseline;
