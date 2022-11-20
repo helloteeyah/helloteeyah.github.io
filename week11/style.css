@@ -1,0 +1,37 @@
+#box1 {
+    width: 800px;
+    top: 250px;
+    margin: auto;
+    position: relative;
+}
+
+#box2 {
+    width: 800px;
+    top: 120px;
+    margin: auto;
+    position: relative;
+}
+
+.flex-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.letter {
+    font-size: 120px;
+    font-weight: 200;
+}
+
+.letter:hover {
+    cursor: pointer;
+
+}
+
+.image:hover {
+    cursor: pointer;
+}
+
+
+.image {
+    width: 150px;
+}

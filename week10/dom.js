@@ -30,31 +30,6 @@ function setup() {
 
 }
 
-function playEng() { 
-    playenglish.play(); 
-    playkorean.pause(); 
-    playjapanese.pause();
-  } 
-  
-function playJapan() { 
-    playjapanese.play(); 
-    playenglish.pause(); 
-    playkorean.pause(); 
-  } 
-
-function playKorean() { 
-    playkorean.play(); 
-    playjapanese.pause();
-    playenglish.pause(); 
-} 
-
-function pause() { 
-    playkorean.pause(); 
-    playjapanese.pause();
-    playenglish.pause(); 
-} 
-
-
 
 function draw() {
 
@@ -214,3 +189,27 @@ function handleFile(file) {
       img = null;
     }
   }
+
+function playEng() { 
+    playenglish.play(); 
+    playkorean.pause(); 
+    playjapanese.pause();
+  } 
+  
+function playJapan() { 
+    playjapanese.play(); 
+    playenglish.pause(); 
+    playkorean.pause(); 
+  } 
+
+function playKorean() { 
+    playkorean.play(); 
+    playjapanese.pause();
+    playenglish.pause(); 
+} 
+
+function pause() { 
+    playkorean.pause(); 
+    playjapanese.pause();
+    playenglish.pause(); 
+} 
