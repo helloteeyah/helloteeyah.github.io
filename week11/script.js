@@ -14,12 +14,12 @@ var letter_i = document.getElementById('i');
 var letter_u = document.getElementById('u');
 var letter_m2 = document.getElementById('m2');
 
-// image_m.style.visibility = "hidden";
-// image_e.style.visibility = "hidden";
-// image_ss.style.visibility = "hidden";
-// image_a.style.visibility = "hidden";
-// image_g.style.visibility = "hidden";
-// image_e2.style.visibility = "hidden";
+image_m.style.visibility = "hidden";
+image_e.style.visibility = "hidden";
+image_ss.style.visibility = "hidden";
+image_a.style.visibility = "hidden";
+image_g.style.visibility = "hidden";
+image_e2.style.visibility = "hidden";
 
 letter_m.addEventListener('click', click_m);
 letter_e.addEventListener('click', click_e);

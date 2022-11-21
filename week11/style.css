@@ -1,16 +1,10 @@
-#box1 {
+#box {
     width: 800px;
     top: 250px;
     margin: auto;
     position: relative;
 }
 
-#box2 {
-    width: 800px;
-    top: 120px;
-    margin: auto;
-    position: relative;
-}
 
 .flex-container {
     display: flex;
@@ -33,5 +27,7 @@
 
 
 .image {
-    width: 150px;
+    width: 120px;
+    position:relative;
+    top: -120px;
 }
