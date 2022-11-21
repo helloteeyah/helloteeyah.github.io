@@ -14,15 +14,18 @@
 .letter {
     font-size: 120px;
     font-weight: 200;
+    transition: transform .3s;
 }
 
 .letter:hover {
     cursor: pointer;
+    transform: scale(1.1);
 
 }
 
 .image:hover {
     cursor: pointer;
+    transform: scale(1.1);
 }
 
 
@@ -30,4 +33,5 @@
     width: 120px;
     position:relative;
     top: -120px;
+    transition: transform .3s;
 }
