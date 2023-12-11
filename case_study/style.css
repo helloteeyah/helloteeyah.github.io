@@ -10,13 +10,13 @@ body {
 h1 {
     padding: 20px;
     position: relative;
-    top: 50px;
+    top: 70px;
     font-size: 50px;
     font-weight: bolder;
 }
 
 h2 {
-    padding-top: 30px;
+    padding-top: 40px;
     font-size: 21px;
     font-weight: lighter;
 }
@@ -52,7 +52,7 @@ ul {
 }
 
 #box {
-    width: 800px;
+    width: 700px;
     margin: auto;
 }
 
@@ -71,6 +71,12 @@ ul {
     margin: auto;
 }
 
+#box5 {
+    width: 630px;
+    margin: auto;
+}
+
+
 .flex-container {
     display: flex;
     justify-content: space-between;
@@ -80,7 +86,7 @@ h4 {
     color: B72424;
     padding: 0;
     margin: 0;
-    font-size: 20px;
+    font-size: 19px;
     font-weight: 900;
 }
 
